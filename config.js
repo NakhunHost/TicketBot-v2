@@ -23,5 +23,5 @@
 module.exports = {
     token: '',
     guildId: '',
-    mongodbURI: ''
+    mongodbURI: 'mongodb+srv://sestro:sestro@cluster0.zldd64l.mongodb.net/?retryWrites=true&w=majority'
 };
