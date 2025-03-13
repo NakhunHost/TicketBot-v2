@@ -27,12 +27,11 @@ module.exports = {
     once: true,
     execute(client) {
         const activities = [
-            { name: 'VALORANT', type: ActivityType.Playing },
-            { name: 'Netflix', type: ActivityType.Watching },
-            { name: 'Fortnite', type: ActivityType.Competing }
+            { name: 'Average Respond 1 Minutes ', type: ActivityType.Watching },
+            { name: 'Over Discord Server', type: ActivityType.Watching },
         ];
 
-        const statuses = ['idle', 'dnd'];
+        const statuses = ['idle', 'idle'];
 
         let currentActivityIndex = 0;
         let currentStatusIndex = 0;
